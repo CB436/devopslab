@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>VISTA Institute of Technology</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:Arial,sans-serif;color:#172033;background:#fff}
+nav{height:78px;display:flex;align-items:center;justify-content:space-between;padding:0 7%;background:#fff;position:absolute;top:0;width:100%;z-index:5}
+.logo{font-size:21px;font-weight:800;color:#123b70;letter-spacing:1px}
+.logo span{display:block;font-size:10px;color:#777;letter-spacing:2px;margin-top:4px}
+nav a{color:#172033;text-decoration:none;margin-left:28px;font-size:14px;font-weight:600}
+nav a:hover{color:#e28b20}
+.hero{
+height:100vh;min-height:650px;padding:180px 7% 80px;
+display:flex;align-items:center;
+background:linear-gradient(90deg,rgba(4,24,48,.94),rgba(4,24,48,.35)),
+url("https://images.unsplash.com/photo-1564981797816-1043664bf78d?auto=format&fit=crop&w=2000&q=90") center/cover;
+color:#fff
+}
+.hero-content{max-width:720px}
+.tag{color:#f2a33a;letter-spacing:4px;font-size:13px;font-weight:bold}
+h1{font-size:clamp(48px,7vw,88px);line-height:.98;margin:20px 0}
+.hero p{font-size:18px;line-height:1.7;color:#e3e8ef;max-width:620px}
+.btn{display:inline-block;margin-top:30px;padding:15px 27px;background:#e89a2d;color:#fff;text-decoration:none;font-weight:bold}
+.btn.secondary{background:transparent;border:1px solid #fff;margin-left:10px}
+.section{padding:90px 7%}
+.heading{text-align:center;margin-bottom:45px}
+.heading small{color:#e28b20;letter-spacing:3px;font-weight:bold}
+.heading h2{font-size:42px;margin-top:12px}
+.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:25px}
+.card{background:#f5f7fa;padding:30px;border-radius:4px}
+.card h3{font-size:22px;color:#123b70;margin-bottom:12px}
+.card p{color:#687282;line-height:1.7}
+.numbers{background:#123b70;color:#fff;display:grid;grid-template-columns:repeat(4,1fr);padding:55px 7%;text-align:center}
+.numbers h3{font-size:38px;color:#f2a33a}
+.numbers p{margin-top:8px;color:#d6dfeb}
+footer{background:#091a2d;color:#b7c1cc;padding:35px 7%;text-align:center}
+@media(max-width:800px){
+nav div:last-child{display:none}
+.cards,.numbers{grid-template-columns:1fr}
+.hero{height:auto}
+}
+</style>
+</head>
+
+<body>
+
+<nav>
+<div class="logo">
+VISTA INSTITUTE
+<span>OF TECHNOLOGY</span>
+</div>
+<div>
+<a href="index.html">HOME</a>
+<a href="academics.html">ACADEMICS</a>
+<a href="#admissions">ADMISSIONS</a>
+<a href="#contact">CONTACT</a>
+</div>
+</nav>
+
+<section class="hero">
+<div class="hero-content">
+<div class="tag">EDUCATION • INNOVATION • EXCELLENCE</div>
+<h1>BUILD YOUR<br>FUTURE HERE.</h1>
+<p>
+A next-generation engineering institution empowering students
+with technology, research, innovation and industry-ready skills.
+</p>
+<a class="btn" href="academics.html">EXPLORE ACADEMICS →</a>
+<a class="btn secondary" href="#admissions">ADMISSIONS</a>
+</div>
+</section>
+
+<section class="section">
+<div class="heading">
+<small>WHY VISTA</small>
+<h2>Where Ideas Become Impact</h2>
+</div>
+
+<div class="cards">
+<div class="card">
+<h3>01 — Innovation</h3>
+<p>Modern laboratories, technology-driven learning and opportunities to turn ideas into real-world solutions.</p>
+</div>
+
+<div class="card">
+<h3>02 — Industry Ready</h3>
+<p>Industry-oriented curriculum, internships, technical workshops and career development programs.</p>
+</div>
+
+<div class="card">
+<h3>03 — Student Life</h3>
+<p>A vibrant campus with clubs, events, sports, cultural activities and opportunities to develop leadership.</p>
+</div>
+</div>
+</section>
+
+<section class="numbers">
+<div><h3>25+</h3><p>YEARS OF EXCELLENCE</p></div>
+<div><h3>8,500+</h3><p>ALUMNI</p></div>
+<div><h3>50+</h3><p>RECRUITING COMPANIES</p></div>
+<div><h3>95%</h3><p>PLACEMENT RATE</p></div>
+</section>
+
+<section class="section" id="admissions">
+<div class="heading">
+<small>ADMISSIONS 2026</small>
+<h2>Start Your Journey</h2>
+<p style="margin-top:15px;color:#687282">Applications are now open for undergraduate and postgraduate programs.</p>
+<a class="btn" href="#">APPLY NOW →</a>
+</div>
+</section>
+
+<footer id="contact">
+© 2026 VISTA INSTITUTE OF TECHNOLOGY • All Rights Reserved
+</footer>
+
+</body>
+</html>
+
